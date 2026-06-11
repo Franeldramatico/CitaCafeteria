@@ -1,0 +1,6 @@
+{
+  "name": "Aranza - Café Romance",
+  "description": "Un simulador de citas inmersivo tipo Novela Visual en una cafetería acogedora donde Aranza conoce a un chico misterioso.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

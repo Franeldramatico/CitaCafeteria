@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="cup" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#8B5E3C"/>
+      <stop offset="100%" stop-color="#5C3A21"/>
+    </linearGradient>
+    <linearGradient id="steam" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0%" stop-color="#E8A87C" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#E8A87C" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <!-- saucer -->
+  <ellipse cx="32" cy="52" rx="18" ry="3" fill="#5C3A21" opacity="0.5"/>
+  <!-- cup body -->
+  <path d="M14 26 L16 48 Q16 50 18 50 L46 50 Q48 50 48 48 L50 26" fill="url(#cup)"/>
+  <!-- cup rim -->
+  <rect x="13" y="23" width="38" height="5" rx="2" fill="#A0724E"/>
+  <!-- handle -->
+  <path d="M50 30 Q58 30 58 37 Q58 44 50 44" fill="none" stroke="#8B5E3C" stroke-width="3.5" stroke-linecap="round"/>
+  <!-- coffee surface -->
+  <rect x="16" y="28" width="32" height="18" rx="1" fill="#3E2415" opacity="0.6"/>
+  <!-- heart on coffee -->
+  <path d="M27 37 Q27 33 31 33 Q35 33 35 37 L31 42 Z" fill="#E85D5D"/>
+  <path d="M35 37 Q35 33 39 33 Q43 33 43 37 L39 42 Z" fill="#E85D5D"/>
+  <!-- steam trails -->
+  <path d="M24 23 Q22 16 26 12" fill="none" stroke="url(#steam)" stroke-width="2" stroke-linecap="round"/>
+  <path d="M32 23 Q30 14 34 10" fill="none" stroke="url(#steam)" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M40 23 Q38 16 42 12" fill="none" stroke="url(#steam)" stroke-width="2" stroke-linecap="round"/>
+</svg>
