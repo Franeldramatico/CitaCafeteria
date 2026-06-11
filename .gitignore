@@ -6,4 +6,3 @@ coverage/
 *.log
 .env*
 !.env.example
-deploy.ps1
